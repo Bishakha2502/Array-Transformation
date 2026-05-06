@@ -1,15 +1,15 @@
-# 🚀 Array Transformation (Java)
+Array Transformation (Java)
 
 Optimized Java solution to minimize operations required to make all array elements equal using remainder grouping and median-based optimization.
 
-## 📌 Problem Statement
+Problem Statement
 Given an array of integers A and an integer K, you can perform the following operation any number of times:
 - Add or subtract K from any element
 
 Return the minimum number of operations required to make all elements equal.  
 If it is not possible, return -1.
 
-## 💡 Approach
+Approach
 1. Remainder Check  
    All elements must have the same remainder when divided by K.  
    If not → return -1  
@@ -26,11 +26,11 @@ If it is not possible, return -1.
 5. Count Operations  
    operations = Σ |B[i] - median|
 
-## ⚙️ Time & Space Complexity
+Time & Space Complexity
 Time Complexity: O(n log n)  
 Space Complexity: O(n)
 
-## 🧪 Example
+Example
 Input:
 5  
 55 15 75 45 65  
@@ -39,7 +39,7 @@ Input:
 Output:
 16
 
-## 🔍 Explanation
+Explanation
 Original Array: [55, 15, 75, 45, 65]  
 After division by K: [11, 3, 15, 9, 13]  
 Sorted: [3, 9, 11, 13, 15]  
@@ -48,20 +48,20 @@ Median = 11
 Operations:  
 |3-11| + |9-11| + |11-11| + |13-11| + |15-11| = 16  
 
-## 🧠 Key Insight
+Key Insight
 Only elements with the same remainder can be transformed.  
 Using the median minimizes total operations.
 
-## 📂 Project Structure
+Project Structure
 ArrayTransformation.java  
 README.md  
 
-## 🛠️ Technologies Used
+Technologies Used
 Java  
 Arrays & Sorting  
 Mathematical Optimization  
 
-## ✨ Author
+Author
 Bishakha  
 
 ## ⭐ Support
