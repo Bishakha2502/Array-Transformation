@@ -64,5 +64,3 @@ Mathematical Optimization
 Author
 Bishakha  
 
-## ⭐ Support
-If you found this helpful, give it a ⭐ on GitHub!
